@@ -4,7 +4,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.ticker import AutoLocator
 
-from IPython.core.display import HTML, display
+from IPython.display import HTML, display
 
 import os
 from pathlib import Path

@@ -702,7 +702,7 @@ def extract_rawChunk(dp, times, channels=np.arange(384),
 
     assert len(times)==2
     assert times[0]>=0
-    assert times[1]<meta['recording_length_seconds']
+
 
     # Format inputs
     channels=assert_chan_in_dataset(dp, channels, ignore_ks_chanfilt)
